@@ -1,0 +1,25 @@
+{
+  "name": "getobj",
+  "version": "1.0.0",
+  "description": "Parse a string and get property from a object by the parsed result.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simba-fs/getObj.js.git"
+  },
+  "keywords": [
+    "object",
+    "parse",
+    "property",
+    "string"
+  ],
+  "author": "simba-fs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simba-fs/getObj.js/issues"
+  },
+  "homepage": "https://github.com/simba-fs/getObj.js#readme"
+}
