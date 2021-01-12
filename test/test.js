@@ -40,7 +40,7 @@ describe('test three levels', () => {
 });
 
 describe('test not exist path', () => {
-	it('expect get error', () => {
+	it('expect get undefined', () => {
 		expect(parse('.babababa', testData)).to.be.equal(undefined);
 		expect(parse('.babababa.lalalalala', testData)).to.be.equal(undefined);
 		expect(parse('.contactMe.facebook', testData)).to.be.equal(undefined);
